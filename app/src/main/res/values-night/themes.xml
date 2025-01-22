@@ -1,0 +1,17 @@
+<resources>
+    <style name="Theme.Idextraction" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="colorOnSurface">@color/text_color</item>
+    </style>
+
+    <style name="CustomTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/accent</item>
+        <item name="hintTextColor">@color/hint_color</item>
+        <item name="android:textColorHint">@color/hint_color</item>
+        <item name="boxBackgroundColor">@color/input_background</item>
+    </style>
+</resources>
